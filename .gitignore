@@ -1,0 +1,41 @@
+# Compiled class files
+*.class
+target/
+
+# Log files
+*.log
+logs/
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# IDE — IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# IDE — Eclipse
+.classpath
+.project
+.settings/
+.factorypath
+
+# IDE — VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Spring Boot
+application-local.yml
+application-secrets.yml
+
+# Docker volumes
+prescription_pgdata/
+
+# env files
+.env

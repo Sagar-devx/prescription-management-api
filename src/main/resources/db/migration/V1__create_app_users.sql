@@ -1,0 +1,7 @@
+CREATE TABLE app_users (
+    id BIGSERIAL PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password_hash VARCHAR(255) NOT NULL,
+    role VARCHAR(20) NOT NULL CHECK (role IN ('ROLE_ADMIN', 'ROLE_USER')),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
