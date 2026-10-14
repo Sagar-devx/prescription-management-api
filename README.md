@@ -69,7 +69,7 @@ The application adheres to clean architecture principles:
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/Sagar-devx/prescription-management-api.git
 cd prescription-management-api
 ```
 
